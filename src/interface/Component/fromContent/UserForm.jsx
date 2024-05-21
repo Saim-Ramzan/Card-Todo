@@ -1,16 +1,16 @@
 import { useEffect } from "react";
 import React from "react";
 import { useFormik } from "formik";
-import { UserValidation } from "./formValidation/UserValidation";
-import Card from "../Card/Card";
+import { UserValidation } from "./formValidation/UserValidation.js";
+import Card from "../../common/Card/Card.jsx";
 import { useSelector, useDispatch } from "react-redux";
 import {
   postReq,
   getReq,
   deleteReq,
   patchRequest,
-} from "../../../useCases/Api/api";
-import initialValues from "./initialValues";
+} from "../../../useCases/Api/api.js";
+import initialValues from "./initialValues.js";
 import { Spin } from "antd";
 
 function UserForm() {

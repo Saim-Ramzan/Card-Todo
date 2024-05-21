@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../interface/Component/Header/Header";
+import Header from "../../interface/mainLayout/Header/Header";
 import { Outlet } from "react-router-dom";
 
 function Layout() {

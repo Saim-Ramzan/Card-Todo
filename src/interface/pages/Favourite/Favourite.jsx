@@ -1,4 +1,4 @@
-import Card from "../Card/Card";
+import Card from "../../common/Card/Card";
 import { useSelector, useDispatch } from "react-redux";
 import { patchRequest, deleteReq } from "../../../useCases/Api/api";
 function Favourite() {

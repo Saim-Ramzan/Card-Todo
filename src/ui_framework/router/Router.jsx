@@ -1,7 +1,7 @@
 import Layout from "./Layout.jsx";
 import { createBrowserRouter } from "react-router-dom";
-import UserForm from "../../interface/Component/UserFrom/UserForm.jsx";
-import Favourite from "../../interface/Component/Favourite/Favourite.jsx";
+import UserForm from "../../interface/Component/fromContent/UserForm.jsx";
+import Favourite from "../../interface/pages/Favourite/Favourite.jsx";
 
 const Router = createBrowserRouter([
   {
